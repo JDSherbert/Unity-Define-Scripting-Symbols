@@ -34,7 +34,7 @@ public class DefineSymbols
 		PlayerSettings.SetScriptingDefineSymbolsForGroup(EditorUserBuildSettings.selectedBuildTargetGroup, string.Join(";", defsList.ToArray()));
 	}
 
-    /// <summary>
+	/// <summary>
 	/// Grabs all currently defined symbols, splits them and returns as a string list.
 	/// </summary>
     private static List<string> GetScriptingDefineStringList()
