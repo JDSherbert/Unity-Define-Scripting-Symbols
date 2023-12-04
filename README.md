@@ -54,17 +54,18 @@ using MyNamespace;
 public class MyClass
 {
   
-  #if MY_SYMBOL
-  public void SomeFunc()
-  {
-    //Do Something here if your symbol is defined
-  }
-  #else
-  public void SomeFunc()
-  {
-    //throw some exception if not defined
-    throw new Exception("My symbol is not defined!");
-  }
-  #endif
+#if MY_SYMBOL
+	public void SomeFunc()
+	{
+		//Do Something here if your symbol is defined
+	}
+#else
+	public void SomeFunc()
+	{
+		//throw some exception if not defined
+		throw new Exception("My symbol is not defined!");
+	}
+#endif
+
 }
 ```
