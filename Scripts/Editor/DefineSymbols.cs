@@ -17,7 +17,7 @@ using UnityEditor;
 public class DefineSymbols
 {
 	/// <summary>
-	/// Symbols to add build settings.
+	/// Symbols to add to build settings.
 	/// </summary>
 	public static readonly string[] Symbols = new string[]
 	{
