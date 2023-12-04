@@ -25,7 +25,8 @@
  -----------------------------------------------------------------------
 ## Overview
 
-Small script to automatically add scripting defines to your Unity build. The defines you specify in the readonly string class will be added when the script is compiled. They will be added in the order you've defined.
+Small script to automatically add scripting defines to your Unity build. The defines you specify in the readonly string class will be added when the script is compiled. They will be added in the order you've defined. You can read more about defining custom editor symbols here:
+https://docs.unity3d.com/Manual/CustomScriptingSymbols.html
 
 Be aware that this script must be put into an "Editor" folder in order to work correctly.
 
