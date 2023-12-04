@@ -59,7 +59,8 @@ public class MyClass
 	{
 		//Do Something here if your symbol is defined
 	}
-#else
+#endif
+#if !MY_SYMBOL
 	public void SomeFunc()
 	{
 		//throw some exception if not defined
