@@ -37,10 +37,10 @@ public class DefineSymbols
 	/// <summary>
 	/// Grabs all currently defined symbols, splits them and returns as a string list.
 	/// </summary>
-    private static List<string> GetScriptingDefineStringList()
-    {
-        string defs = PlayerSettings.GetScriptingDefineSymbolsForGroup(EditorUserBuildSettings.selectedBuildTargetGroup);
-        return defs.Split(';').ToList();
-    }
+	private static List<string> GetScriptingDefineStringList()
+	{
+		string defs = PlayerSettings.GetScriptingDefineSymbolsForGroup(EditorUserBuildSettings.selectedBuildTargetGroup);
+		return defs.Split(';').ToList();
+	}
 }
 #endif
