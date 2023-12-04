@@ -43,3 +43,28 @@ public static readonly string[] Symbols = new string[]
 	"ENABLE_DEBUG"
 };
 ```
+
+Here is an example of using those defined symbols when building code:
+
+```cs
+#if MY_SYMBOL
+using MyNamespace;
+#endif
+
+public class MyClass
+{
+  
+  #if MY_SYMBOL
+  public void SomeFunc()
+  {
+    //Do Something here if your symbol is defined
+  }
+  #else
+  public void SomeFunc()
+  {
+    //throw some exception if not defined
+    throw new Exception("My symbol is not defined!");
+  }
+  #endif
+}
+```
