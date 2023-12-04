@@ -39,6 +39,7 @@ public static readonly string[] Symbols = new string[]
 {
 	"SOME_SYMBOL",
 	"ANOTHER_SYMBOL",
-	"A_THIRD_SYMBOL"
+	"MY_ENGINE_DEF",
+	"ENABLE_DEBUG"
 };
 ```
