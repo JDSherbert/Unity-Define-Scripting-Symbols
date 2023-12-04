@@ -32,7 +32,7 @@ Be aware that this script must be put into an "Editor" folder in order to work c
 You can add the additional scripting defines like this:
 ```cs
 	/// <summary>
-	/// Symbols to add build settings.
+	/// Symbols to add to build settings.
 	/// </summary>
 	public static readonly string[] Symbols = new string[]
 	{
