@@ -31,13 +31,13 @@ Be aware that this script must be put into an "Editor" folder in order to work c
 
 You can add the additional scripting defines like this:
 ```cs
-	/// <summary>
-	/// Symbols to add to build settings.
-	/// </summary>
-	public static readonly string[] Symbols = new string[]
-	{
-		"SOME_SYMBOL",
-    		"ANOTHER_SYMBOL",
-    		"A_THIRD_SYMBOL"
-	};
+/// <summary>
+/// Symbols to add to build settings.
+/// </summary>
+public static readonly string[] Symbols = new string[]
+{
+	"SOME_SYMBOL",
+	"ANOTHER_SYMBOL",
+	"A_THIRD_SYMBOL"
+};
 ```
