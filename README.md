@@ -25,7 +25,7 @@
  -----------------------------------------------------------------------
 ## Overview
 
-Small script to automatically add scripting defines to your Unity build. The defines you specify in the readonly string class will be added when the script is compiled. They will be added in the order as defined in the readonly string.
+Small script to automatically add scripting defines to your Unity build. The defines you specify in the readonly string class will be added when the script is compiled. They will be added in the order you've defined.
 
 Be aware that this script must be put into an "Editor" folder in order to work correctly.
 
