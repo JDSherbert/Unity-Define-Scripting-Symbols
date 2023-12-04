@@ -22,10 +22,20 @@
   
 <br></br>
 
------------------------------------------------------------------------
+ -----------------------------------------------------------------------
 ## Overview
-Some words about the project here-
 
+Small script to automatically add scripting defines to your Unity build. The defines you specify in the readonly string class will be added when the script is compiled. They will be added in the order as defined in the readonly string.
 
------------------------------------------------------------------------
-
+You can add the additional scripting defines like this:
+```cs
+	/// <summary>
+	/// Symbols to add build settings.
+	/// </summary>
+	public static readonly string[] Symbols = new string[]
+	{
+		"SOME_SYMBOL",
+    "ANOTHER_SYMBOL",
+    "A_THIRD_SYMBOL"
+	};
+```
